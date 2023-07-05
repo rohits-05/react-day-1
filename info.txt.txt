@@ -6,9 +6,5 @@
 
 
 * root.render will override whatever is there in root
-* order of script matters in javascript....place the script that imports some library before the custom scripts where we use them
-* async and defer(used in script tag)
-	async-> scripts are loaded asyncronously without blocking other elements parsing....are loaded as soon as available..they are independent of other scripts
-	defer-> scripts are loaded only after the entire page has been parsed.
-* my understanding.....put library scripts as async(provided that they are not dependent on each other else we will get ('xyz' not defined error))......custom script as defer
+
 
